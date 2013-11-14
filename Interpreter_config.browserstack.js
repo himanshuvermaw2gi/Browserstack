@@ -20,7 +20,7 @@
         }
       ],
       "scripts": [
-        "Report_flexmonsterconnect.json"
+        "Report_flexmonsterconnect.js"
       ]
     }
   ]
