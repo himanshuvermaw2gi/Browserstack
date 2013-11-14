@@ -1,6 +1,6 @@
 language: node.js
 before_script:
-     - "npm install -g selenium-server-standalone-2.33.0.jar"
+     - "npm install -g selenium-server-standalone-2.37.0.jar"
      - "npm install -g se-interpreter"
      - "npm install -g selenium-webdriver"
      
