@@ -5,5 +5,5 @@ script:
      - "se-interpreter Interpreter_config.browserstack.js"
 
 sauce_connect:
-    username: "Himanshu verma"
+    username: "Himanshuverma"
     secure: "sUt3pLpo9zsCY9LPZvz6"
