@@ -13,7 +13,7 @@
           "browserOptions":  {
             "browserName": "firefox",
             "acceptSslCerts": true,
-            "browserstack.user": "Himanshuverma",
+            "browserstack.user": "Himanshu verma",
             "browserstack.key": "sUt3pLpo9zsCY9LPZvz6",
             "browserstack.debug": true
           }
