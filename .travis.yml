@@ -1,13 +1,9 @@
----
 language: node_js
-node_js:
-- '0.10'
 before_script:
-- yeti --server
-- sleep 3
-- java -jar tests/tools/BrowserStackTunnel.jar BRSTK_KEY localhost,9000,0
-- sleep 3
-env:
-  global:
-  - secure: |- 
-     sUt3pLpo9zsCY9LPZvz6
+     - "npm install -g se-interpreter"
+script:
+     - "se-interpreter Interpreter_config.json"
+
+sauce_connect:
+    username: "Himanshu verma"
+    secure: "sUt3pLpo9zsCY9LPZvz6"
