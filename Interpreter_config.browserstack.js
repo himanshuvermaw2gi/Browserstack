@@ -5,7 +5,7 @@
       "settings": [
         {
           "driverOptions": {
-            "protocol": "http",
+            "protocol": "https",
             "host": "hub.browserstack.com",
             "port": "80",
             "path": "/wd/hub"
