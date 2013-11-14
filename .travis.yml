@@ -2,7 +2,7 @@ language: node_js
 before_script:
      - "npm install -g se-interpreter"
 script:
-     - "se-interpreter Interpreter_config.browserstack.json"
+     - "se-interpreter Interpreter_config.browserstack.js"
 
 sauce_connect:
     username: "Himanshu verma"
