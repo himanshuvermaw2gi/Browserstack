@@ -1,8 +1,11 @@
 language: node.js
 before_script:
+     - "npm install -g selenium-server-standalone-2.33.0.jar"
      - "npm install -g se-interpreter"
-     - "npm install selenium-webdriver"
+     - "npm install -g selenium-webdriver"
+     
 script:
+     - "selenium-server-standalone-2.33.0.jar Interpreter_config.browserstack.js "
      - "se-interpreter Interpreter_config.browserstack.js"
 
 BrowserStack_connect:
