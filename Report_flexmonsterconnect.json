@@ -30,9 +30,10 @@
         "value": "submit"
       }
     },
-         {
+	
+	{
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "5000"
     },
     {
       "type": "clickElement",
@@ -40,10 +41,6 @@
         "type": "css selector",
         "value": "div > b"
       }
-    },
-    {
-      "type": "pause",
-      "waitTime": "3000"
     },
     {
       "type": "setElementText",
@@ -57,7 +54,7 @@
       "type": "clickElement",
       "locator": {
         "type": "css selector",
-        "value": "#accounts_chzn_o_78 > em"
+        "value": "#accounts_chzn_o_77 > em"
       }
     },
     {
@@ -67,63 +64,64 @@
         "value": "change_account"
       }
     },
-         {
+	{
+      "type": "pause",
+      "waitTime": "5000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "img[alt=\"Reports\"]"
+      }
+    },
+	{
       "type": "pause",
       "waitTime": "3000"
     },
     {
       "type": "clickElement",
       "locator": {
-        "type": "css selector",
-        "value": "img[alt=\"Launchpad\"]"
+        "type": "link text",
+        "value": "Flexmonster"
       }
     },
-        {
+	{
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "5000"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "date-range"
+        "value": "tabConnect"
       }
     },
-    {
+	{
       "type": "pause",
-      "waitTime": "10000"
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "css selector",
-        "value": "a.datepickerGoPrev > span"
+        "value": "#btnNewLocal > span"
       }
     },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@class='datepickerContainer']//span[.='1']"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@class='datepickerContainer']/table/tbody/tr/td[5]/table/tbody[2]/tr[5]/td[5]/a/span"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "input.datepickerApply.GrayButton"
-      }
-    },
-    {
+	{
       "type": "pause",
-      "waitTime": "10000"
+      "waitTime": "4000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "__flexmonsterPivotComponent__0"
+      }
+    },
+	{
+      "type": "pause",
+      "waitTime": "5000"
     }
   ]
 }
