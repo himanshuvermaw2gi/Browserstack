@@ -1,9 +1,10 @@
 language: node.js
 before_script:
      - "npm install -g se-interpreter"
+     - "npm install selenium-webdriver"
 script:
      - "se-interpreter Interpreter_config.browserstack.js"
 
-sauce_connect:
+BrowserStack_connect:
     username: "Himanshuverma"
     secure: "sUt3pLpo9zsCY9LPZvz6"
