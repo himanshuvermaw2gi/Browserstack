@@ -13,8 +13,8 @@
           "browserOptions":  {
             "browserName": "firefox",
             "acceptSslCerts": true,
-            "browserstack.user": "ianmccall",
-            "browserstack.key": "zPzjb9p8kAg5kpczMqhB",
+            "browserstack.user": "Himanshu verma",
+            "browserstack.key": "sUt3pLpo9zsCY9LPZvz6",
             "browserstack.debug": true
           }
         }
