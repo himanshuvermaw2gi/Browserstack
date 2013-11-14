@@ -50,13 +50,7 @@
       },
       "text": "dennys"
     },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "#accounts_chzn_o_77 > em"
-      }
-    },
+    
     {
       "type": "clickElement",
       "locator": {
