@@ -5,7 +5,6 @@ before_script:
      - "npm install -g selenium-webdriver"
      
 script:
-     - "npm install -g selenium-webdriver Interpreter_config.browserstack.js "
      - "se-interpreter Interpreter_config.browserstack.js"
 
 BrowserStack_connect:
