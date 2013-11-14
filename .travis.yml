@@ -1,7 +1,6 @@
 language: node.js
 before_script:
-          - "npm install -g selenium-webdriver"
-          - "npm install -g se-interpreter"
+         - "npm install -g se-interpreter"
      
      
 script:
