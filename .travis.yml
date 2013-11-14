@@ -5,7 +5,7 @@ before_script:
      
      
 script:
-     - "se-interpreter Interpreter_config.browserstack.js"
+     - "se-interpreter Interpreter_config.browserstack.json"
 
 BrowserStack_connect:
     username: "Himanshu verma"
