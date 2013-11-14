@@ -1,0 +1,27 @@
+{
+  "type": "interpreter-config",
+  "configurations": [
+    {
+      "settings": [
+        {
+          "driverOptions": {
+            "protocol": "http",
+            "host": "hub.browserstack.com",
+            "port": "80",
+            "path": "/wd/hub"
+          },
+          "browserOptions":  {
+            "browserName": "firefox",
+            "acceptSslCerts": true,
+            "browserstack.user": "ianmccall",
+            "browserstack.key": "zPzjb9p8kAg5kpczMqhB",
+            "browserstack.debug": true
+          }
+        }
+      ],
+      "scripts": [
+        "date.json"
+      ]
+    }
+  ]
+}
