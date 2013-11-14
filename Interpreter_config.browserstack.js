@@ -20,7 +20,7 @@
         }
       ],
       "scripts": [
-        "test1.js"
+        "Browserstack/test1.js"
       ]
     }
   ]
