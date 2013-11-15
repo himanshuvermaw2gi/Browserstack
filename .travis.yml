@@ -4,7 +4,7 @@ before_script:
          - "npm install -g se-interpreter"
     
 script:
-     - "se-interpreter-config.browserstack.js"
+     - "se-interpreter Interpreter-config.browserstack.js"
 
 BrowserStack_connect:
     username: "Himanshu verma"
