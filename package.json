@@ -1,0 +1,17 @@
+{
+  "name": "node-browserstack",
+  "version": "0.2.1",
+  "description": "A BrowserStack API client (v3 & screenshot)",
+  "main": "lib/browserstack.js",
+  "dependencies": {
+    "url-template": "=2.0.1",
+    "request": "=2.21.0"
+  },
+  "repository": "https://github.com/himanshuvermaw2gi/Browserstack",
+  "keywords": [
+    "BrowserStack",
+    "browser",
+    "stack"
+  ]
+  
+}
