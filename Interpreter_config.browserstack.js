@@ -1,5 +1,5 @@
 {
-  "type": "interpreter-config",
+  "type": "interpreter-config.browserstack",
   "configurations": [
     {
       "settings": [
