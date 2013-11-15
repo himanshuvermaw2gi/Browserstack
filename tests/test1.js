@@ -36,7 +36,7 @@ driver.findElement(webdriver.By.id('change_account').click();
 
 driver.wait(function() {
   return driver.getTitle().then(function(title) {
-    return title === 'BrowserStack - Google Search';
+    
   });
 }, 1000);
 }catch(e)
