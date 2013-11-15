@@ -1,7 +1,9 @@
 language: node.js
 before_script:
+         - "npm install -g browserstack"
          - "npm install -g browserstack-webdriver"
          - "npm install -g se-interpreter"
+         
     
 script:
      - "se-interpreter Interpreter_config.browserstack.js"
